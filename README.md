@@ -17,3 +17,15 @@ nodejs采用的[CommonJs规范](https://javascript.ruanyifeng.com/nodejs/module.
 
 **区别：**
 - 1.CommonJs是同步加载，所有文件加载完才能运行代码；AMD是异步加载，加载模块的过程中可以执行代码，浏览器采用这种模式
+
+
+## 4.如何发布一个npm库
+## 5.写一个登陆/注册页面
+- 1.使用`jwt-token`做登陆校验
+- 2.不使用数据库，数据保存为properties文件
+- 3.包含3个页面-登陆/注册/主页
+- 4.使用rollup打包
+- 5.页面请求使用`request.js`
+- 6.node服务使用`http`模块
+- 7.将token校验过程打包成npm库，并发布
+- 8.最后部署到服务器上
